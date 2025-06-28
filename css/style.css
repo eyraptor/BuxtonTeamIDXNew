@@ -232,7 +232,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/City Night.png');
+  background-image: url('/Images/white-brick-one-story-home-full.webp');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -571,11 +571,17 @@ a {
   margin-inline: auto;
 }
 
+.inline-block-text {
+  display: inline-block;
+  line-height: .9;
+}
+
 .center-align {
   display: block;
   justify-content: center;
   text-align: center;
 }
+
 .align-right {
   display: flex;
   flex-direction: column;
@@ -636,6 +642,10 @@ a {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.balanced-text {
+  text-wrap: balanced;
 }
 
 .no-radius {
@@ -1017,7 +1027,7 @@ a {
   left: 0;
   z-index: -1;
   opacity: 1;
-  background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 60%);
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 10%,#0a0a0a 70%);
  }
 
  .img-overlayPiedmont::after {
