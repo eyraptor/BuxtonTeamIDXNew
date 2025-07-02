@@ -834,6 +834,10 @@ a {
   /* border-radius: 10px; */
 }
 
+.add-black-border {
+  border: 2px, solid, black;
+}
+
 .add-border2 {
   border: 2px solid white;
   /* border-radius: 12px 0 0 12px; */
