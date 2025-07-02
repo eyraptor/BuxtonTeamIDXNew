@@ -1,8 +1,10 @@
 *::before,
 *::after,
-body {
-  position:relative
-}
+/* body {
+  max-width: 1500px;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
 
 
 .brent {
@@ -18,4 +20,9 @@ body {
   transform: translate(-50%, 50%);
   color: red;
   font-size: 3em;
+}
+
+.container {
+  max-width: 500px;
+  padding-right: 16px;
 }

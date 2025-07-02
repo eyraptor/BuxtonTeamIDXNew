@@ -191,9 +191,9 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: var(--clr-primary-400);
-  /* max-width: 1500px; */
-  margin: auto;
+  background-color: var(--clr-primary-100);
+  max-width: 1500px;
+  /* margin: auto; */
 }
 
 /* A elements that don't have a class get default styles */
@@ -202,7 +202,7 @@ a:not([class]) {
 }
 
 /* Ms easier to work with */
-/* img, */
+img,
 picture,
 svg {
   max-width: 100%;
@@ -237,7 +237,25 @@ svg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top, bottom;
+  position: relative;
+}
+
+.body-home::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.6) 90%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
+}
+
+.opacity-1 {
   opacity: 1;
+  position: relative;
 }
 
 .body-aboutus {
@@ -379,11 +397,26 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.display-block {
+  display: block;
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.hero-logo-position {
+  padding-left: 15px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
 /* Navigation */
 
-.primary-header {
+.header { /*  removed primary- */
   padding-top: var(--size-100);
   margin-bottom: 1em;
+  position: absolute;
 }
 
 .nav-wrapper {
@@ -406,9 +439,9 @@ a {
   flex-wrap: wrap;
 }
 
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   display: none;
-}
+} */
 
 .nav-list {
   display: flex;
@@ -512,7 +545,8 @@ a {
   --max-width: 1500px;
   --padding: 1rem;
   /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
-  margin-inline: auto;
+  /* margin-inline: auto; */
+  max-width: 1500px;
 }
 
 .container-hidden {
@@ -660,8 +694,12 @@ a {
   border-bottom: 2px white solid;
 }
 
+.add-black-border {
+  border: solid, 1px, black;
+}
+
 .add-border {
-  border: 2px solid red;
+  border: 2px, solid, red;
   /* border-radius: 12px 0 0 12px;
   padding-left: 5px;
   padding-right: 5px;
@@ -851,6 +889,10 @@ a {
 
 .padding-30 {
   padding: 30px;
+}
+
+.padding-bottom-50px {
+  padding-bottom: 50px;
 }
 
 .padding-100 {
@@ -1238,10 +1280,6 @@ img {
   transition: transform 0.4s ease;
   transform: translateY(-150%);
 }
-.box-appear {
-  opacity: 1;
-  z-index: 10;
-}
 
 .right {
   transform: translateY(200%);
@@ -1495,7 +1533,7 @@ label.required:after {
 .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 100ch;
+  height: 940px;
 }
 
 .carousel__track {
@@ -1523,16 +1561,16 @@ label.required:after {
 }
 
 .carousel__button--left {
-  left: -10px;
+  left: 1px;
   z-index: 1;
 }
 
 .carousel__button--right {
-  right: -10px;
+  right: 1px;
 }
 
 .carousel__button img {
-  width: 25px;
+  width: 20px;
 }
 
 .carousel__nav {
@@ -1557,6 +1595,126 @@ label.required:after {
 }
 
 .is-hidden { display: none;}
+
+/* CSS Top mobile menu */
+
+.header {
+  position: fixed;
+  right: 20px;
+  width: 550px;
+  background-color: transparent;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* overflow: hidden; */
+  /* background-color:white; */
+  background-color: #ffffff;
+}
+
+.header ul a {
+  display: block;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color: var(--clr-primary-400);
+}
+
+.header ul a:hover {
+  background-color: #ddd;
+}
+
+/* .header .logo {
+  float: left;
+  display: block;
+  max-width: 300px;
+  padding: 10px 10px;
+} */
+
+.header .menu {
+  /* clear: both; */
+  text-align: right;
+  max-height: 0px;
+  transition: max-height .2s ease-out;
+  margin-top: 62px
+  /* max-width: 100px; */  
+}
+
+.menu {
+  font-size: 12px;
+  max-width: 1500px;
+}
+
+.header .menu-icon {
+  padding: 30px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+  background-color: #333;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background-color .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  height: 2px;
+  width: 18px;
+  background-color: #000;
+  transition: all .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+  content: '';
+  display:block;
+  position: absolute;
+  top: -5px;
+  height: 2px;
+  width: 18px;
+  background-color: #000;
+  transition: all .2s ease-out;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  display: block;
+  max-height: 380px;
+  width: 130px;
+  margin-left: auto;
+  /* margin-right: 30px; */
+  padding-inline: 10px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background-color: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top: 0
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
 
 /* Media Queries */
 
@@ -1610,7 +1768,7 @@ label.required:after {
 
 @media (max-width: 1040px) {
   h4 {
-    font-size: var(--fs-600);
+    font-size: var(--fs-550);
   }
   .nav-list-black-back {
     background-color: white;
@@ -1692,7 +1850,7 @@ label.required:after {
     display: block;
   }
 
-  .mobile-nav-toggle {
+  /* .mobile-nav-toggle {
     display: block;
     position: fixed;
     background-size: cover;
@@ -1706,9 +1864,9 @@ label.required:after {
     background-image: url('/Images/hamburger-menu-svgrepo-com.svg');
     background-color: white;
     border: 0px;
-  }
+  } */
 
-  .mobile-nav-toggle[aria-expanded='true'] {
+  /* .mobile-nav-toggle[aria-expanded='true'] {
     width: 1.5rem;
     height: 1.5rem;
     top: 30px;
@@ -1718,11 +1876,24 @@ label.required:after {
     border: none;
     background-image: url('/Images/icon-close.svg');
     background-color: white;
+  } */
+
+  /* .mobile-nav-toggle .icon-close {
+    display: none;
+  } */
+
+  /* Mobile CSS Top Menu */
+
+  .header .menu li {
+    font-size: 11px;
+    padding-right: 1px;
+    padding-left: 1px;
   }
 
-  .mobile-nav-toggle .icon-close {
-    display: none;
-  }
+  .header .menu > li.brands-item > label.brands-label {
+   margin-bottom: 8px; /* Added margin to brands button mobile*/
+   margin-right: 10px;
+   }
 }
 
 @media (max-width: 930px) {
@@ -1733,12 +1904,82 @@ label.required:after {
   }
 
   .carousel__track-container {
-    height: 60ch;
+    height: 650px;
   }
 
   p {
-    font-size: var(--fs-300);
+    font-size: var(--fs-200);
   }
+}
+
+@media (min-width: 870px) {
+  .header li {
+   float: left;
+ }
+
+ .mobile-left {
+   margin-left: 0;
+   margin-right: auto;
+ }
+
+ .header .menu > li {
+   float: left;
+ }
+
+ /* Style the label for the Brands submenu to look like other menu items on desktop */
+ .header .menu > li.has-submenu > label.brands-label {
+   display: block; /* Crucial for padding and alignment */
+   padding: 20px 10px; /* Matches .header li a padding */
+   color: var(--clr-primary-400); /* Matches .header ul a color */
+   text-decoration: none; /* Typically labels don't have this, but keeps it consistent if links do */
+   cursor: pointer;
+   /* Add any other relevant styles from .header li a if needed (e.g., font-weight) */
+ }
+
+   /* Add hover background to the Brands label on desktop */
+ .header .menu > li.has-submenu > label.brands-label:hover {
+   background-color: #ddd; /* Matches .header ul a:hover background */
+ }
+
+ .display-block-left {
+ margin-left: 0;
+ margin-right: auto;
+}
+
+.header li a { 
+ padding: 20px 10px; 
+ }
+
+ .header .menu {
+   display: block;
+   clear: none;
+   float: right;
+   max-height: none;
+ }
+
+ .header .menu-icon {
+   display: none;
+ }
+
+ /* Desktop Hover: Show submenu and make it interactive.
+  This rule is inside the @media (min-width: 870px) block implicitly by its position
+  if the previous @media block for 870px is where desktop styles begin.
+  If not, it should be explicitly within that media query. */
+/* .header .menu > li.has-submenu.brands-item:hover > ul.submenu,
+.header .menu > li.has-submenu.brands-item > ul.submenu:hover {
+  display: block;
+  pointer-events: auto;  Crucial for making links clickable on hover 
+} */
+
+ .header .menu > li.brands-item > .submenu-toggle-checkbox:checked ~ .submenu {
+ display: block;
+ pointer-events: auto;
+ }
+
+ .header .menu > li.brands-item > .submenu-toggle-checkbox:not(:checked) ~ .submenu {
+ pointer-events: none;
+ display: none;
+ }
 }
 
 @media (min-width: 800px) {
@@ -1768,6 +2009,11 @@ label.required:after {
    margin-bottom: 100px;
   }
 
+  .mobile-left {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
   li {
     color: var(--clr-accent-100);
   }
@@ -1782,6 +2028,11 @@ label.required:after {
 
   p {
     font-size: var(--fs-300);
+  }
+
+  .hero-logo-position {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1839,7 +2090,7 @@ label.required:after {
   .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 60ch;
+  height: 650px;
   }
 
   h4 {
