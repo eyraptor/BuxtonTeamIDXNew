@@ -1506,7 +1506,7 @@ img {
 }
 
 .width-auto {
-  width: 100%;
+  width: 50%;
 }
 
 label.required:after {
