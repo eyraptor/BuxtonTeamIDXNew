@@ -1515,7 +1515,15 @@ img {
 }
 
 .width-auto {
-  width: 35%;
+  width: 20%;
+}
+
+.width-auto-10p {
+  width: 20%;
+}
+
+.width-auto-30p {
+  width: 30%;
 }
 
 label.required:after {
@@ -1698,7 +1706,7 @@ label.required:after {
 .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 650px;
+  height: 450px;
 }
 
 .carousel__track {
@@ -2086,7 +2094,7 @@ label.required:after {
   }
 
   .carousel__track-container {
-    height: 650px;
+    height: 400px;
   }
 
   p {
@@ -2397,5 +2405,9 @@ label.required:after {
   .variable-p {
     font-size: var(--fs-300);
     font-weight: var(--fw-regular);
+  }
+
+  .carousel__track-container {
+    height: 475px;
   }
 }
