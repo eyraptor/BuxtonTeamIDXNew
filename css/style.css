@@ -1525,6 +1525,9 @@ img {
 .width-auto-30p {
   width: 30%;
 }
+.width-auto-40p {
+  width: 40%;
+}
 
 label.required:after {
   content: ' *';
