@@ -423,6 +423,7 @@ svg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 1;
+  min-height: 600px;
 }
 
 .body-nichols-hills::before {
