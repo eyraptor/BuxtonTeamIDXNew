@@ -376,7 +376,7 @@ svg {
 
 .body-edmond::before {
   content: '';
-  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  background: linear-gradient(rgba(255, 255, 255, 0.6)100%,#ffffff 100%);
   top: 0;
   left: 0;
   bottom: 0;
