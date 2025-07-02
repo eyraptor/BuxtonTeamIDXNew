@@ -2414,6 +2414,6 @@ label.required:after {
 
 @media (max-width: 500px) {
   .carousel__track-container {
-    height: 540px;
+    height: 560px;
   }
 }
