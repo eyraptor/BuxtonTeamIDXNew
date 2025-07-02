@@ -292,7 +292,22 @@ svg {
   background-attachment: fixed;
   background-position: top, bottom, right, left;
   opacity: 1;
+  min-height: 600px;
 }
+
+.body-okc::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
+}
+
 
 .body-arcadia {
   font-size: var(--fs-body);
@@ -329,6 +344,20 @@ svg {
   background-attachment:fixed;
   background-position: top, bottom;
   opacity: 1;
+  min-height: 600px;
+}
+
+.body-bethany::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
 }
 
 .body-edmond {
@@ -342,6 +371,20 @@ svg {
   background-attachment:fixed;
   background-position: center;
   opacity: 1;
+  min-height: 600px;
+}
+
+.body-edmond::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
 }
 
 .body-piedmont {
@@ -354,6 +397,20 @@ svg {
   background-repeat: no-repeat;
   background-attachment:fixed;
   opacity: 1;
+  min-height: 600px;
+}
+
+.body-piedmont::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
 }
 
 .body-nichols-hills {
@@ -368,6 +425,19 @@ svg {
   opacity: 1;
 }
 
+.body-nichols-hills::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
+}
+
 .body-warr-acres {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
@@ -378,6 +448,20 @@ svg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 1;
+  min-height: 600px;
+}
+
+.body-warr-acres:before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
 }
 
 .body-yukon {
@@ -390,6 +474,20 @@ svg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 1;
+  min-height: 600px;
+}
+
+.body-yukon:before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
 }
 
 .body-the-village {
@@ -402,6 +500,20 @@ svg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 1;
+  min-height: 600px;
+}
+
+.body-the-village::before {
+  content: '';
+  background: linear-gradient(rgba(212, 211, 211, 0.7)100%,#ffffff 100%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  overflow: hidden;
 }
 
 a {
