@@ -1709,7 +1709,7 @@ label.required:after {
 .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 450px;
+  height: 500px;
 }
 
 .carousel__track {
@@ -2097,7 +2097,7 @@ label.required:after {
   }
 
   .carousel__track-container {
-    height: 400px;
+    height: 420px;
   }
 
   p {
@@ -2301,7 +2301,7 @@ label.required:after {
   .carousel__track-container {
   position: relative;
   overflow: hidden;
-  /* height: 650px; */
+  height: 400px;
   }
 
   h4 {
@@ -2411,12 +2411,6 @@ label.required:after {
   }
 
   .carousel__track-container {
-    height: 475px;
-  }
-}
-
-@media (max-width: 500px) {
-  .carousel__track-container {
-    height: 560px;
+    height: 450px;
   }
 }
