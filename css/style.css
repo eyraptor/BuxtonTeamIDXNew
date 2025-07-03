@@ -1021,6 +1021,12 @@ a {
   padding-left: 30px;
 }
 
+reasons .padding-tb-10px {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 .padding-0px {
   padding-left: 0;
   padding-right: 0;
@@ -1070,6 +1076,10 @@ a {
 
 .margin-t-60px {
   margin: 560px;
+}
+
+.margin-b-0 {
+  margin-bottom: 0;
 }
 
 .margin-b-10 {
