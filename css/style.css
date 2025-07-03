@@ -984,6 +984,10 @@ a {
   max-width: 1500px;
 }
 
+.padding-0 {
+  padding: 0;
+}
+
 .padding-l-5px {
   padding-left: 5px;
 }
