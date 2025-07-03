@@ -1492,7 +1492,7 @@ img {
   font-size: var(--fs-550);
 }
 
-.variable-H1 {
+.variable-h1 {
   font-size: var(--fs-1000);
   font-weight: var(--fw-black);
 }
@@ -2085,11 +2085,11 @@ label.required:after {
    margin-right: 10px;
    }
 
-   .variable-H1 {
+   .variable-h1 {
     font-size: var(--fs-900);
   }
 
-  .variable-H2 {
+  .variable-h2 {
     font-size: var(--fs-700);
   }
 
@@ -2242,12 +2242,12 @@ label.required:after {
     margin-right: auto;
   }
 
-  .variable-H1 {
+  .variable-h1 {
     font-size: var(--fs-900);
     }
 
-  .variable-H2 {
-    font-size: var(--fs-500);
+  .variable-h2 {
+    font-size: var(--fs-700);
     font-weight: var(--fw-regular);
   }
 
@@ -2401,7 +2401,7 @@ label.required:after {
     margin-top: 25px;
   }
 
-  .variable-H1 {
+  .variable-h1 {
     font-size: var(--fs-600);
   }
 
