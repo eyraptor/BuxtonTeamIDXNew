@@ -2118,6 +2118,13 @@ label.required:after {
   .variable-h3 {
     font-size: var(--fs-600);
   }
+
+  
+  .grid-container3 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-rows: 1fr;
+  }
 }
 
 @media (max-width: 930px) {
@@ -2226,6 +2233,12 @@ label.required:after {
     padding: 4px;
   }
 
+  .grid-container3 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-rows: 1fr;
+  }
+
    .hero-p {
    font-size: var(--fs-500);
    max-width: 100%;
@@ -2279,12 +2292,6 @@ label.required:after {
 }
 
 @media (max-width: 700px) {
-  .grid-container3 {
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-    grid-template-rows: repeat(2, 1fr);
-  }
-
   .grid-container2 {
     grid-template-columns: 100%;
     grid-template-rows: auto;
