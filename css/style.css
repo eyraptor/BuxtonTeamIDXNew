@@ -874,7 +874,7 @@ a {
   /* border-radius: 10px; */
 }
 
-/* #IDX-qsSubmit-24928 {
+#IDX-qsSubmit-24928 {
   color: var(--clr-primary-100);
   border-radius: 10px;
   width: 150px;
@@ -898,7 +898,7 @@ a {
 
 .IDX-wrapper-standard .IDX-btn-link {
   color: white;
-} */
+}
 
 .idx-listings-carousel__properties {
   overflow: hidden;
@@ -917,7 +917,7 @@ a {
   
 }
 
-/* #IDX-qsIdxIDWrap-24928 { 
+#IDX-qsIdxIDWrap-24928 { 
   display: none; 
 }
 
@@ -927,7 +927,7 @@ a {
 
 #IDX-qsIdxID-24928 {
   display: none;
-} */
+}
 
 .bkgnd-size {
   height: 100px;
