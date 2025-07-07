@@ -2121,8 +2121,8 @@ label.required:after {
 
   .grid-container3 {
     grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: auto auto;
+  grid-template-columns: repeat(2,1fr);
   }
 }
 
