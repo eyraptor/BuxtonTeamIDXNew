@@ -692,9 +692,11 @@ a {
   grid-template-columns: auto auto auto;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 5px;
-  place-items: center;
+  /* place-items: center; */
+  align-items: start;
+  justify-content: center;
   max-width: 1500px;
-  margin-inline: auto;
+  /* margin-inline: auto; */
 }
 
 .grid-container2 {
