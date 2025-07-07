@@ -875,8 +875,8 @@ a {
 }
 
 .idx-ai-smart-search {
-  /* min-width: 350px;
-  max-width: 600px; */
+  /* min-width: 350px; */
+  max-width: 600px;
   overflow: hidden;
   }
 
