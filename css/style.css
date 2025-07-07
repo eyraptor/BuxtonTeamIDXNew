@@ -875,7 +875,7 @@ a {
 }
 
 .idx-ai-smart-search {
-  min-width: 330px;
+  min-width: none;
 }
 
 /* #IDX-qsSubmit-24928 {
