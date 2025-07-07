@@ -693,7 +693,7 @@ a {
   grid-template-columns: repeat(3,1fr);
   grid-gap: 5px;
   /* place-items: center; */
-  align-items: start;
+  /* align-items: start; */
   justify-content: center;
   max-width: 1500px;
   /* margin-inline: auto; */
