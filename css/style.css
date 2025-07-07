@@ -876,6 +876,7 @@ a {
 
 .idx-ai-smart-search {
   min-width: none;
+  overflow: hidden;
 }
 
 /* #IDX-qsSubmit-24928 {
