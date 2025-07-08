@@ -4,6 +4,7 @@
   --clr-primary-200: #5c5c5c;
   --clr-primary-300: #00a8d5;
   --clr-primary-400: black;
+  --clr-primary-500: #ecf5f5;
 
   --clr-pop-100: #fb9039;
   --clr-pop-200: #fcbb87;
@@ -592,6 +593,13 @@ a {
   background-color: white;
 }
 
+.light-grey-back {
+  background-color: var(--clr-primary-500);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 20px 20px; /* Ample space inside */
+}
+
 .grey-back {
   background-color: var(--clr-primary-200);;
 }
@@ -640,6 +648,23 @@ a {
   /* margin-bottom: 35px; */
 }
 
+.button2-clr-pop-200 {
+  display: inline-flex;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 100vmax;
+  padding: 1em 2.5em;
+  font-weight: var(--fw-black);
+  font-size: var(--fs-button);
+  line-height: 1;
+  background-color: var(--clr-pop-200);
+  color: var(--clr-primary-400);
+  box-shadow: 0 1.125em 1em -1em var(--cls-primary-200);
+  font-size: var(--size-400);
+  max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .width-211-center {
   display: block;
@@ -698,6 +723,15 @@ a {
   /* margin-inline: auto; */
 }
 
+.grid-container3-to-1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px;
+  place-content: center;
+  max-width: 1500px;
+}
+
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto;
@@ -707,6 +741,18 @@ a {
   max-width: 1500px;
   margin-inline: auto;
   text-align: left;
+}
+
+.grid-container2-center {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  place-items: center;
+  /* place-items: left; */
+  max-width: 1500px;
+  margin-inline: auto;
+  /* text-align: left; */
 }
 
 .grid-item {
@@ -1089,12 +1135,16 @@ reasons .padding-tb-10px {
   margin: auto;
 }
 
+.margin-t-20px {
+  margin-top: 20px;
+}
+
 .margin-t-30px {
   margin-top: 30px;
 }
 
-.margin-t-60px {
-  margin: 560px;
+.margin-t-50px {
+  margin-top: 50px;
 }
 
 .margin-b-0 {
@@ -1111,6 +1161,10 @@ reasons .padding-tb-10px {
 
 .margin-b-30px {
   margin-bottom: 30px;
+}
+
+.margin-b-50px {
+  margin-bottom: 50px;
 }
 
 .text-align-l {
@@ -1142,22 +1196,6 @@ reasons .padding-tb-10px {
 .margin-rl-30 {
   margin-left: 30px;
   margin-right: 30px;
-}
-
-.padding-bottom-30px {
-  padding-bottom: 30px;
-}
-
-.padding-b-300px {
-  padding-bottom: 300px;
-}
-
-.padding-b-150px {
-  padding-bottom: 150px;
-}
-
-.padding-t-1px {
-  padding-top: 1px;
 }
 
 .margin-top-1px {
@@ -1200,6 +1238,29 @@ reasons .padding-tb-10px {
 .margin-h-center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.padding-rl-15px {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+.padding-bottom-30px {
+  padding-bottom: 30px;
+}
+
+.padding-b-300px {
+  padding-bottom: 300px;
+}
+
+.padding-b-150px {
+  padding-bottom: 150px;
+}
+
+.padding-t-1px {
+  padding-top: 1px;
 }
 
 .padding-tb-35px {
@@ -1516,6 +1577,12 @@ img {
   font-weight: var(--fw-black);
 }
 
+.variable-h1-orange {
+  font-size: var(--fs-1000);
+  color: var(--clr-pop-100);
+  font-weight: var(--fw-black);
+}
+
 .variable-h2 {
   font-size: var(--fs-900);
   font-weight: var(--fw-semi-bold);
@@ -1527,7 +1594,11 @@ img {
 }
 
 .variable-h3 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-550);
+}
+
+.variable-p {
+  font-size: var(--fs-500);
 }
 
 .vertical-center {
@@ -1597,6 +1668,11 @@ label.required:after {
 .margin-tb-25px {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.margin-tb-50px {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .margin-rl-25 {
@@ -2111,6 +2187,10 @@ label.required:after {
     font-size: var(--fs-900);
   }
 
+  .variable-h1-orange {
+    font-size: var(--fs-900);
+  }
+
   .variable-h2 {
     font-size: var(--fs-700);
   }
@@ -2280,6 +2360,10 @@ label.required:after {
     font-size: var(--fs-900);
     }
 
+  .variable-h1-orange {
+    font-size: var(--fs-900);
+  }
+
   .variable-h2 {
     font-size: var(--fs-700);
     font-weight: var(--fw-regular);
@@ -2293,10 +2377,20 @@ label.required:after {
   .variable-h3 {
     font-size: var(--fs-600);
   }
+
+  .grid-container3-to-1 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 700px) {
   .grid-container2 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .grid-container2-center {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-rows: repeat(1, 1fr);
@@ -2430,6 +2524,10 @@ label.required:after {
   }
 
   .variable-h1 {
+    font-size: var(--fs-600);
+  }
+
+  .variable-h1-orange {
     font-size: var(--fs-600);
   }
 
