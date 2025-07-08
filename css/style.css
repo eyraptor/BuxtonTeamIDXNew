@@ -15,8 +15,8 @@
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
-  --fw-light: 300;
-  --fw-regular: 400;
+  --fw-light: 200;
+  --fw-regular: 300;
   --fw-semi-bold: 500;
   --fw-bold: 700;
   --fw-black: 900;
@@ -74,16 +74,6 @@
   src: url('/fonts/roboto-v48-latin-300.woff2') format('woff2'),
        url('/fonts/roboto-v48-latin-300.woff') format('woff');
   font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Roboto Regular (400) - Your specific named file */
-@font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/roboto-v48-latin-regular.woff2') format('woff2'),
-       url('/fonts/roboto-v48-latin-regular.woff') format('woff');
-  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -208,6 +198,18 @@ strong {
   font-size: var(--fs-10000);
 }
 
+.fw-light {
+  font-weight: var(--fw-light);
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+
 .fw-bold {
   font-weight: var(--fw-bold);
 }
@@ -215,6 +217,8 @@ strong {
 .fw-black {
   font-weight: var(--fw-black);
 }
+
+
 
 .text-color-white {
   color: white;
@@ -1786,18 +1790,6 @@ label.required:after {
 
 .bg-primary-100 {
   background-color: var(--clr-primary-100);
-}
-
-.fw-bold {
-  font-weight: var(--fw-bold);
-}
-
-.fw-semi-bold {
-  font-weight: var(--fw-semi-bold);
-}
-
-.fw-regular {
-  font-weight: var(--fw-regular);
 }
 
 .fs-primary-heading {
