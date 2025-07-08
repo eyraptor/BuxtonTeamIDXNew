@@ -21,7 +21,8 @@
   --fw-bold: 700;
   --fw-black: 900;
 
-  --fs-200: .75rem;
+  --fs-100: 0.5rem;
+  --fs-200: 0.75rem;
   --fs-300: 0.8125rem;
   --fs-350: 0.85rem;
   --fs-400: 0.875rem;
@@ -146,6 +147,10 @@ strong {
   font-weight: 500; /* This pulls the Roboto Medium file */
 }
 
+.fs-100 {
+  font-size: var(--fs-100);
+}
+
 .fs-200 {
   font-size: var(--fs-200);
 }
@@ -217,8 +222,6 @@ strong {
 .fw-black {
   font-weight: var(--fw-black);
 }
-
-
 
 .text-color-white {
   color: white;
