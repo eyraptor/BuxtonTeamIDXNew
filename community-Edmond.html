@@ -116,8 +116,7 @@
         <div class='footer'>
           <div class="flex-start">
             <div class='footer-left'>
-              <img class="hero-footer-pic" src="/Images/599X335HorizontalLREBuxtonBlack.png" loading="lazy" width='599'
-                height='335px' alt="Company Logo">
+              <img class="hero-footer-pic" src="/Images/599X335HorizontalLREBuxtonBlack.png" loading="lazy" width='599' height='335' alt="Company Logo">
               <h3 class="fs-200 text-color-white">Copywrite: 2025</h3>
               <p class='clr-primary-100 font-size-400'>Learn about our <a class='clr-primary-100 under-line-text'
                   href='PrivacyPolicy.html'>Privacy Policy</a> Here </p>
@@ -134,7 +133,7 @@
             </div>
           </div>
           <div>
-            <ul aria-label="Footer" role="list" class="footer-list footer-list-font-color">
+            <ul aria-label="Footer" class="footer-list footer-list-font-color">
               <li class='margin-top-3px'><a href="/index.html">Home</a></li>
               <li class='margin-top-10'><a href="https://search.buxtonteam.com/idx/search/smart">Search</a></li>
               <li class='margin-top-10'><a href="https://hmbt.co/tt84EP" target="_blank">Sell</a></li>
@@ -172,16 +171,16 @@
       }); -->
 
       // 2. This code loads the IFrame Player API code asynchronously.
-      function loadYT() {
+      <!-- function loadYT() {
         var tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      }
+      } -->
 
       // 3. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
-      var player;
+      <!-- var player;
 
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
@@ -193,17 +192,17 @@
             'onStateChange': onPlayerStateChange
           }
         });
-      }
+      } -->
 
       // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
+      <!-- function onPlayerReady(event) {
         event.target.playVideo();
-      }
+      } -->
 
       // 5. The API calls this function when the player's state changes.
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
-      var done = false;
+      <!-- var done = false;
 
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
@@ -214,7 +213,7 @@
 
       function stopVideo() {
         player.stopVideo();
-      }
+      } -->
     </script>
   </div>
 </body>
