@@ -1059,6 +1059,10 @@ min-width: 350px;
   overflow: hidden;
 } */
 
+.idx-listings-showcase {
+  min-width: 300px;
+}
+
 .search-icon-after:after {
   content: '';
   position: absolute;
