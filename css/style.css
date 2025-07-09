@@ -465,23 +465,24 @@ svg {
   overflow: hidden;
 }
 
-.body-edmond {
+/* .body-edmond {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
   background-image: url('/Images/EdmondPaintedWallbyRailyardsAligned.webp');
-  background-position: top center;
+  background-position: center center;
   background-size:contain;
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position: center;
   opacity: 1;
-  min-height: 600px;
-}
+  min-height: 550px;
+  max-width: 100%;
+} */
 
-.body-edmond::before {
+/* .body-edmond::before {
   content: '';
-  background: linear-gradient(rgba(255, 255, 255, 0.6)100%,#ffffff 100%);
+  background: linear-gradient(rgba(255, 255, 255, 0.2)100%,#ffffff 100%);
   top: 0;
   left: 0;
   bottom: 0;
@@ -490,7 +491,7 @@ svg {
   height: 100%;;
   position: absolute;
   overflow: hidden;
-}
+} */
 
 .body-piedmont {
   font-size: var(--fs-body);
@@ -974,8 +975,12 @@ a {
   border-radius: 0;
 }
 
-.add-radius-20px {
+.add-radius-15px {
   border-radius: 15px;
+}
+
+.add-radius-20px {
+  border-radius: 20px;
 }
 
 .border-bottom-white-2px {
@@ -1703,7 +1708,7 @@ img {
 
 .variable-h3 {
   font-size: var(--fs-600);
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-bold);
 }
 
 .variable-h4 {
@@ -1779,6 +1784,10 @@ label.required:after {
   align-items: start;
 }
 
+.margin-tb-20px {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
 
 .margin-tb-25px {
   margin-top: 25px;
