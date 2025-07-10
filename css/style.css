@@ -2439,10 +2439,14 @@ label.required:after {
 
   .grid-container3 {
     grid-template-columns: 100%;
-    grid-template-rows: auto;
     grid-template-rows: 1fr;
     place-items: center;
   }
+
+  /* .grid-container3-to-1 {
+    grid-template-columns: 1fr;
+    place-items: center;
+  } */
 
    .hero-p {
    font-size: var(--fs-500);
@@ -2497,10 +2501,6 @@ label.required:after {
 
   .variable-h3 {
     font-size: var(--fs-600);
-  }
-
-  .grid-container3-to-1 {
-    grid-template-columns: 1fr;
   }
 
   .body-home {
