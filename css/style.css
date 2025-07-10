@@ -824,7 +824,7 @@ a {
   align-items: start;
   justify-content: center;
   max-width: 1500px;
-  /* margin-inline: auto; */
+  place-items: center;
 }
 
 .grid-container3-to-1 {
