@@ -2441,6 +2441,7 @@ label.required:after {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-rows: 1fr;
+    place-items: center;
   }
 
    .hero-p {
