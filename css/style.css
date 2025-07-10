@@ -2520,6 +2520,7 @@ label.required:after {
 
   .body-home {
     background-image: url('/Images/white-brick-one-story-home-800X243.webp');
+    border-radius: 15px;
   }
 }
 
