@@ -2434,7 +2434,7 @@ label.required:after {
     gap: 1rem;
     font-weight: var(--fw-semi-bold);
     font-size: var(--fs-nav);
-    padding: 4px;
+    padding: 4px; 
   }
 
   .grid-container3 {
