@@ -344,26 +344,30 @@ svg {
   background-attachment: fixed;
   background-position: top, bottom;
   min-height: 500px; */
+  /* background-color: linear-gradient(rgba(212, 211, 211, 0.6) 100%,#ffffff 100%); */
   position: relative;
+  opacity: .8;
 }
 
 .body-home::before {
   content: 'Your Trusted Realtors for Oklahoma City & Edmond';
-  /* background: linear-gradient(rgba(212, 211, 211, 0.6) 100%,#ffffff 100%); */
-  color: var(--clr-primary-100);
+  background: linear-gradient(rgba(212, 211, 211, 0.6) 100%,#ffffff 100%);
+  color: var(--clr-primary-400);
   font-size: var(--fs-900);
   font-weight: var(--fw-black);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-wrap: balance;
   text-align: center;
-  /* bottom: 0;
-  right: 0; */
   width: 100%;
-  /* height: 100%; */
   position: absolute;
-  overflow: hidden; 
+  overflow: hidden;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  right: 0; */
 }
 
 .opacity-1 {
