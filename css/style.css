@@ -1798,6 +1798,11 @@ label.required:after {
   margin-bottom: 25px;
 }
 
+.margin-tb-30px {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .margin-tb-50px {
   margin-top: 50px;
   margin-bottom: 50px;
