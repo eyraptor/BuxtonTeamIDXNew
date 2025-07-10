@@ -2502,6 +2502,10 @@ label.required:after {
   .grid-container3-to-1 {
     grid-template-columns: 1fr;
   }
+
+  .body-home {
+    background-image: url('/Images/white-brick-one-story-home-800X243.webp');
+  }
 }
 
 @media (max-width: 700px) {
