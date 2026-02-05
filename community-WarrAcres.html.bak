@@ -39,7 +39,6 @@
         <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
         <ul class='menu'>
           <li class='margin-top-6px'><a href="/">Home</a></li>
-          <li class='margin-top-6px'><a href="/home-buying-guide.html">Buy</a></li>
           <!-- <li class='margin-top-6px'><a href="https://search.buxtonteam.com/idx/search/smart">Search</a></li> -->
           <li class='margin-top-6px'><a href="https://hmbt.co/tt84EP" target="_blank">Sell</a></li>
           <li class='margin-top-6px'><a href="/communities.html">Communities</a></li>
@@ -62,6 +61,11 @@
 
      <div>
       <div class='container-hidden'>
+        <script id="idxwidgetsrc-65892"
+          src="//search.buxtonteam.com/idx/widgets/65892"></script>
+      </div>
+    </div>
+    <div class='white-back margin-h-center padding-inline-30px'>
       <h1 class='clr-primary-400 fs-1000'>Warr Acres, Oklahoma</h1>
       <p class='max-width-1000px margin-h-center fs-550'>
         <h2>Discover the Enchanting Lifestyle of Warr Acres, OK</h2>
@@ -124,7 +128,6 @@
           <div>
             <ul aria-label="Footer" class="footer-list footer-list-font-color">
               <li class='margin-top-3px'><a href="/index.html">Home</a></li>
-              <li class='margin-top-10'><a href="/home-buying-guide.html">Buy</a></li>
               <!-- <li class='margin-top-10'><a href="https://search.buxtonteam.com/idx/search/smart">Search</a></li> -->
               <li class='margin-top-10'><a href="https://hmbt.co/tt84EP" target="_blank">Sell</a></li>
               <li class='margin-top-10'><a href="/communities.html">Communities</a></li>

@@ -82,6 +82,14 @@
     };
     slides.forEach(setSlidePosition);
 
+    // Initialize carousel: ensure first slide and dot are marked as current
+    const firstSlide = slides[0];
+    const firstDot = dots[0];
+    firstSlide.classList.add('current-slide');
+    firstDot.classList.add('current-slide');
+    // Hide left button since we're starting on the first slide
+    prevButton.classList.add('is-hidden');
+
     // function for the right and left arrow click
     const moveToSlide = (track, currentSlide, targetSlide) => {
         track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
@@ -106,6 +114,7 @@
           nextButton.classList.remove('is-hidden');
         }
     }
+
     // when I click right, move slides to the right
 
         nextButton.addEventListener('click', e => {

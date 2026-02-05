@@ -37,7 +37,6 @@
       <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
       <ul class='menu'>
         <li class='margin-top-6px'><a href="/">Home</a></li>
-          <li class='margin-top-6px'><a href="/home-buying-guide.html">Buy</a></li>
         <!-- <li class='margin-top-6px'><a href="https://search.buxtonteam.com/idx/search/smart">Search</a></li> -->
         <li class='margin-top-6px'><a href="https://hmbt.co/tt84EP" target="_blank">Sell</a></li>
         <li class='margin-top-6px'><a href="/communities.html">Communities</a></li>
@@ -61,6 +60,11 @@
 
     <div class=''>
       <div class='container-hidden'>
+        <script id="idxwidgetsrc-65896"
+          src="//search.buxtonteam.com/idx/widgets/65896"></script>
+      </div>
+    </div>
+    <div class='white-back margin-h-center padding-inline-30px'>
       <h1 class='clr-primary-400 fs-1000'>Embrace the Charm of Yukon, OK</h1>
       <p class='max-width-1000px margin-h-center fs-550'>
         Nestled in the heart of Oklahoma, Yukon welcomes you with open arms to a community that truly feels like home. Imagine living in a place where friendly neighbors wave hello, where local businesses greet you by name, and where the pace of life is just right – not too hectic, not too slow. Yukon offers a unique blend of history, culture, and modern living that creates an enchanting atmosphere you'll fall in love with. As you stroll down historic Main Street, you'll feel the echoes of the past mingling with the present. Quaint shops line the sidewalks, offering everything from handcrafted goods to artisanal treats. This captivating town has a story to tell, and you're invited to be a part of it. Yukon's beauty isn't just skin deep – it's in the relationships that are built, the memories that are shared, and the experiences that shape us. The sense of belonging you'll find here is unparalleled. Whether you're exploring local parks, attending community events, or simply enjoying a leisurely evening on your porch, you'll realize that Yukon is more than just a place to live; it's a place to thrive.<br><br>
@@ -147,7 +151,6 @@
           <div>
             <ul aria-label="Footer" class="footer-list footer-list-font-color">
               <li class='margin-top-3px'><a href="/index.html">Home</a></li>
-              <li class='margin-top-10'><a href="/home-buying-guide.html">Buy</a></li>
               <!-- <li class='margin-top-10'><a href="https://search.buxtonteam.com/idx/search/smart">Search</a></li> -->
               <li class='margin-top-10'><a href="https://hmbt.co/tt84EP" target="_blank">Sell</a></li>
               <li class='margin-top-10'><a href="/communities.html">Communities</a></li>
